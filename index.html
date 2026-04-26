@@ -143,7 +143,11 @@
   font-size: 16px;
   color: #555;
 }
-
+.grid-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 40px;
+}
 .section-title {
   font-size: 20px;
   font-weight: bold;
@@ -182,19 +186,19 @@
   <div class="right-panel">
 
     <div class="section-title">Research Interests</div>
-    <ul>
-      <li>Deep Learning</li>
-      <li>Machine Learning</li>
-      <li>Computer Vision</li>
-      <li>Medical Image Analysis</li>
-      <li>Neuroimaging</li>
-      <li>Biomedical Imaging</li>
-      <li>Health Analytics</li>
-      <li>Signal Processing</li>
-      <li>Bioinformatics</li>
-      <li>Neuroengineering</li>
-    </ul>
-
+<ul class="grid-list">
+  <li>Deep Learning</li>
+  <li>Machine Learning</li>
+  <li>Computer Vision</li>
+  <li>Medical Image Analysis</li>
+  <li>Neuroimaging</li>
+  <li>Biomedical Imaging</li>
+  <li>Health Analytics</li>
+  <li>Signal Processing</li>
+  <li>Bioinformatics</li>
+  <li>Neuroengineering</li>
+</ul>
+	<br>  
     <div class="section-title">About Me</div>
     <p class="about">
       I am a prospective PhD student with research interests in artificial intelligence for healthcare,
